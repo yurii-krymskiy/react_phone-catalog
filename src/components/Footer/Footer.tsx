@@ -16,7 +16,7 @@ export const Footer = () => {
       <div className="footer__content">
         <div className="footer__logo">
           <a
-            href="/react_phone-catalog"
+            href="/"
             className="footer__logo-link"
           >
             <img src={logo} alt="logo" />

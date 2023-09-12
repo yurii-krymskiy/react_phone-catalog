@@ -22,11 +22,8 @@ const App = () => (
     <section className="App__main-section">
       <div className="Appn__content">
         <Routes>
-          <Route path="/react_phone-catalog" element={<HomePage />} />
-          <Route
-            path="home"
-            element={<Navigate to="/react_phone-catalog" replace />}
-          />
+          <Route path="/" element={<HomePage />} />
+          <Route path="home" element={<Navigate to="/" replace />} />
 
           <Route path="phones">
             <Route index element={<PhonesPage />} />
