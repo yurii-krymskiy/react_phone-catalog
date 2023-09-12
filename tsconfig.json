@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "esModuleInterop": true,
+  },
+
   "extends": "@mate-academy/students-ts-config",
   "include": [
     "src"
