@@ -20,7 +20,7 @@ const App = () => (
       <Header />
     </div>
     <section className="App__main-section">
-      <div className="Appn__content">
+      <div className="App__content">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="home" element={<Navigate to="/" replace />} />
