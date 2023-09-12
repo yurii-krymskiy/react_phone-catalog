@@ -25,7 +25,7 @@ export const Header = () => {
     <header className="header header--margin-bottom">
       <div className="header__nav">
         <div className="header__logo">
-          <Link to="/">
+          <Link to="/react_phone-catalog">
             <img src={logo} alt="logo" />
           </Link>
         </div>
@@ -34,7 +34,7 @@ export const Header = () => {
           className={({ isActive }) => classNames('header__link', 'header__main-nav-link', {
             'header__main-nav-link--is-active': isActive,
           })}
-          to="/"
+          to="/react_phone-catalog"
         >
           home
         </NavLink>
